@@ -1,0 +1,850 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="scripts.js">
+  </script>
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Dataset</title>
+
+
+
+<meta http-equiv="Content-Style-Type" content="text/css">
+<style type="text/css"><!--
+body {
+  margin: 5px 5px 5px 5px;
+  background-color: #ffffff;
+}
+/* ========== Text Styles ========== */
+hr { color: #000000}
+body, table /* Normal text */
+{
+ font-size: 10pt;
+ font-family: 'Calibri';
+ font-style: normal;
+ font-weight: normal;
+ color: #000000;
+ text-decoration: none;
+ text-align: center;
+}
+span.rvts1 /* Heading */
+{
+ font-family: 'Calibri';
+ font-weight: bold;
+ color: #030307;
+ text-align: center;
+}
+span.rvts2 /* Subheading */
+{
+ font-family: 'Calibri';
+ font-weight: bold;
+ color: #060614;
+ text-align: center;
+}
+span.rvts3 /* Keywords */
+{
+ font-family: 'Calibri';
+ font-style: italic;
+ color: #800000;
+}
+a.rvts4, span.rvts4 /* Jump 1 */
+{
+ color: #008000;
+ text-decoration: underline;
+}
+a.rvts5, span.rvts5 /* Jump 2 */
+{
+ font-family: 'Calibri';
+ color: #008000;
+ text-decoration: underline;
+}
+/* ========== Para Styles ========== */
+p,ul,ol /* Paragraph Style */
+{
+ text-align: left;
+ text-indent: 0px;
+ padding: 0px 0px 0px 0px;
+ margin: 0px 0px 0px 0px;
+}
+.rvps1 /* Centered */
+{
+ text-align: center;
+}
+--></style>
+</head>
+
+
+<body style="background-image: url({{url_for('static',filename='ee.jpg') }});background-size:fit;">
+  <div class="container-fluid">
+      <center><br>
+            <h2 class="display-4">
+                <font color="black"><strong>60 of 689 Selected Public Companies Financial Statement Review </strong>
+                </font><span class="badge badge-secondary">Dataset</span>
+            </h2><br><br>
+</body>
+
+<body>
+<p><br></p>
+<div><table width="100%" border="1" cellpadding=1 cellspacing=2 style="background-color: #ffffff;" class="dataframe">
+  <thead>
+    <tr style="text-align: center;">
+      <th></th>
+      <th>Company_Name</th>
+      <th>Code_Name</th>
+      <th>Subsector</th>
+      <th>Equity</th>
+      <th>PBVR</th>
+      <th>DER</th>
+      <th>Div_Yield</th>
+      <th>ROE</th>
+      <th>DPR</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>PP London Sumatra Indonesia Tb</td>
+      <td>LSIP</td>
+      <td>Plantation</td>
+      <td>8580.00</td>
+      <td>0.67</td>
+      <td>0.2202</td>
+      <td>0.0225</td>
+      <td>0.0377</td>
+      <td>0.3958</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>BISI International Tbk.</td>
+      <td>BISI</td>
+      <td>Crops</td>
+      <td>2340.00</td>
+      <td>1.04</td>
+      <td>0.2310</td>
+      <td>0.1227</td>
+      <td>0.0416</td>
+      <td>3.1250</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Indocement Tunggal Prakarsa Tb</td>
+      <td>INTP</td>
+      <td>Basic Industry And Chemicals</td>
+      <td>23480.00</td>
+      <td>1.82</td>
+      <td>0.1660</td>
+      <td>0.0474</td>
+      <td>0.0682</td>
+      <td>1.2644</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Panca Budi Idaman Tbk.</td>
+      <td>PBID</td>
+      <td>Plastics &amp; Packaging</td>
+      <td>1730.00</td>
+      <td>0.92</td>
+      <td>0.3805</td>
+      <td>0.0694</td>
+      <td>0.1426</td>
+      <td>0.4504</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Waskita Beton Precast Tbk.</td>
+      <td>WSBP</td>
+      <td>Cement</td>
+      <td>7210.00</td>
+      <td>0.74</td>
+      <td>1.1848</td>
+      <td>0.0407</td>
+      <td>0.0579</td>
+      <td>0.5138</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Wilmar Cahaya Indonesia Tbk.</td>
+      <td>CEKA</td>
+      <td>Food And Beverages</td>
+      <td>1200.00</td>
+      <td>0.97</td>
+      <td>0.1952</td>
+      <td>0.0510</td>
+      <td>0.2216</td>
+      <td>0.2242</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Darya-Varia Laboratoria Tbk.</td>
+      <td>DVLA</td>
+      <td>Pharmaceuticals</td>
+      <td>1350.00</td>
+      <td>1.87</td>
+      <td>0.4374</td>
+      <td>0.0476</td>
+      <td>0.1679</td>
+      <td>0.5297</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Budi Starch &amp; Sweetener Tbk.</td>
+      <td>BUDI</td>
+      <td>Food And Beverages</td>
+      <td>1200.00</td>
+      <td>0.32</td>
+      <td>1.2986</td>
+      <td>0.0595</td>
+      <td>0.0223</td>
+      <td>0.8333</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Gudang Garam Tbk.</td>
+      <td>GGRM</td>
+      <td>Tobacco Manufacturers</td>
+      <td>53380.00</td>
+      <td>1.69</td>
+      <td>0.4394</td>
+      <td>0.0555</td>
+      <td>0.1833</td>
+      <td>0.5112</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Mandala Multifinance Tbk.</td>
+      <td>MFIN</td>
+      <td>Financial Institution</td>
+      <td>2370.00</td>
+      <td>1.14</td>
+      <td>1.0770</td>
+      <td>0.0490</td>
+      <td>0.1809</td>
+      <td>0.3086</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>Victoria Insurance Tbk.</td>
+      <td>VINS</td>
+      <td>Insurance</td>
+      <td>177.03</td>
+      <td>1.01</td>
+      <td>0.4403</td>
+      <td>0.0772</td>
+      <td>0.0302</td>
+      <td>2.3750</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Wahana Ottomitra Multiartha Tb</td>
+      <td>WOMF</td>
+      <td>Financial Institution</td>
+      <td>1190.00</td>
+      <td>0.60</td>
+      <td>5.8910</td>
+      <td>0.1098</td>
+      <td>0.1492</td>
+      <td>0.4392</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>Adira Dinamika Multi Finance T</td>
+      <td>ADMF</td>
+      <td>Financial Institution</td>
+      <td>7470.00</td>
+      <td>0.98</td>
+      <td>3.6565</td>
+      <td>0.1445</td>
+      <td>0.2783</td>
+      <td>0.5070</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>Lippo General Insurance Tbk.</td>
+      <td>LPGI</td>
+      <td>Insurance</td>
+      <td>798.79</td>
+      <td>0.70</td>
+      <td>2.2433</td>
+      <td>0.0867</td>
+      <td>0.1720</td>
+      <td>0.3548</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>Asuransi Ramayana Tbk.</td>
+      <td>ASRM</td>
+      <td>Insurance</td>
+      <td>474.12</td>
+      <td>0.98</td>
+      <td>2.6367</td>
+      <td>0.0427</td>
+      <td>0.2539</td>
+      <td>0.5350</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>Bank Negara Indonesia (Persero</td>
+      <td>BBNI</td>
+      <td>Bank</td>
+      <td>107480.00</td>
+      <td>0.81</td>
+      <td>7.0584</td>
+      <td>0.0442</td>
+      <td>0.1582</td>
+      <td>0.2261</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>Bank Mandiri (Persero) Tbk.</td>
+      <td>BMRI</td>
+      <td>Bank</td>
+      <td>173510.00</td>
+      <td>1.39</td>
+      <td>6.5853</td>
+      <td>0.0683</td>
+      <td>0.1824</td>
+      <td>0.5204</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>Bank Pembangunan Daerah Jawa T</td>
+      <td>BJTM</td>
+      <td>Bank</td>
+      <td>9560.00</td>
+      <td>0.86</td>
+      <td>6.2929</td>
+      <td>0.0884</td>
+      <td>0.1837</td>
+      <td>0.4120</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>Bank CIMB Niaga Tbk.</td>
+      <td>BNGA</td>
+      <td>Bank</td>
+      <td>40010.00</td>
+      <td>0.52</td>
+      <td>5.8602</td>
+      <td>0.0667</td>
+      <td>0.1054</td>
+      <td>0.3297</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>Bank Danamon Indonesia Tbk.</td>
+      <td>BDMN</td>
+      <td>Bank</td>
+      <td>42850.00</td>
+      <td>0.64</td>
+      <td>3.7328</td>
+      <td>0.0670</td>
+      <td>0.1162</td>
+      <td>0.3677</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>Cikarang Listrindo Tbk.</td>
+      <td>POWR</td>
+      <td>Energy</td>
+      <td>9250.92</td>
+      <td>0.88</td>
+      <td>0.9630</td>
+      <td>0.0418</td>
+      <td>0.0196</td>
+      <td>1.9143</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>Indonesia Kendaraan Terminal T</td>
+      <td>IPCC</td>
+      <td>Toll Road, Airport, Harbor</td>
+      <td>1090.00</td>
+      <td>0.72</td>
+      <td>0.7903</td>
+      <td>0.0811</td>
+      <td>0.0746</td>
+      <td>0.7749</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>Perusahaan Gas Negara Tbk.</td>
+      <td>PGAS</td>
+      <td>Energy</td>
+      <td>36400.00</td>
+      <td>0.65</td>
+      <td>1.7905</td>
+      <td>0.0366</td>
+      <td>0.0735</td>
+      <td>0.3222</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>PP Presisi Tbk.</td>
+      <td>PPRE</td>
+      <td>Non Building Construction</td>
+      <td>2240.00</td>
+      <td>0.89</td>
+      <td>1.9676</td>
+      <td>0.0332</td>
+      <td>0.0250</td>
+      <td>1.3000</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>Samudera Indonesia Tbk.</td>
+      <td>SMDR</td>
+      <td>Transportation</td>
+      <td>2218.86</td>
+      <td>0.29</td>
+      <td>1.6935</td>
+      <td>0.0348</td>
+      <td>0.0470</td>
+      <td>0.2162</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>Nusantara Infrastructure Tbk.</td>
+      <td>META</td>
+      <td>Wholesale (Durable &amp; Non-Durab</td>
+      <td>2620.00</td>
+      <td>0.73</td>
+      <td>0.8753</td>
+      <td>0.0880</td>
+      <td>0.0619</td>
+      <td>1.0556</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>Blue Bird Tbk.</td>
+      <td>BIRD</td>
+      <td>Transportation</td>
+      <td>5320.00</td>
+      <td>0.48</td>
+      <td>0.4284</td>
+      <td>0.0716</td>
+      <td>0.0103</td>
+      <td>3.3182</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>Trans Power Marine Tbk.</td>
+      <td>TPMA</td>
+      <td>Transportation</td>
+      <td>11236.40</td>
+      <td>0.65</td>
+      <td>0.3829</td>
+      <td>0.0821</td>
+      <td>0.0596</td>
+      <td>0.8867</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>Temas Tbk.</td>
+      <td>TMAS</td>
+      <td>Transportation</td>
+      <td>1190.00</td>
+      <td>0.50</td>
+      <td>1.9298</td>
+      <td>0.0343</td>
+      <td>0.0130</td>
+      <td>1.2000</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>Mitrabara Adiperdana Tbk.</td>
+      <td>MBAP</td>
+      <td>Coal Mining</td>
+      <td>2245.60</td>
+      <td>0.79</td>
+      <td>0.3792</td>
+      <td>0.0955</td>
+      <td>0.3717</td>
+      <td>0.2025</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>Bukit Asam Tbk.</td>
+      <td>PTBA</td>
+      <td>Coal Mining</td>
+      <td>19760.00</td>
+      <td>1.21</td>
+      <td>0.3950</td>
+      <td>0.1577</td>
+      <td>0.1828</td>
+      <td>1.0397</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>Indo Tambangraya Megah Tbk.</td>
+      <td>ITMG</td>
+      <td>Coal Mining</td>
+      <td>12198.80</td>
+      <td>0.59</td>
+      <td>0.4293</td>
+      <td>0.1711</td>
+      <td>0.0707</td>
+      <td>1.4278</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>Adaro Energy Tbk.</td>
+      <td>ADRO</td>
+      <td>Coal Mining</td>
+      <td>52360.00</td>
+      <td>0.57</td>
+      <td>0.7883</td>
+      <td>0.1027</td>
+      <td>0.1050</td>
+      <td>0.6341</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>Petrosea Tbk.</td>
+      <td>PTRO</td>
+      <td>Non Building Construction</td>
+      <td>2939.30</td>
+      <td>0.43</td>
+      <td>1.6297</td>
+      <td>0.0732</td>
+      <td>0.0801</td>
+      <td>0.2487</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>Elnusa Tbk.</td>
+      <td>ELSA</td>
+      <td>Crude Petroleum &amp; Natural Gas</td>
+      <td>3630.00</td>
+      <td>0.49</td>
+      <td>1.1532</td>
+      <td>0.0505</td>
+      <td>0.0571</td>
+      <td>0.4361</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>Indospring Tbk.</td>
+      <td>INDS</td>
+      <td>Automotive And Components</td>
+      <td>2600.00</td>
+      <td>0.55</td>
+      <td>0.1068</td>
+      <td>0.0461</td>
+      <td>0.0662</td>
+      <td>0.3802</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>Supreme Cable Manufacturing &amp;</td>
+      <td>SCCO</td>
+      <td>Cable</td>
+      <td>3270.00</td>
+      <td>0.59</td>
+      <td>0.2709</td>
+      <td>0.0535</td>
+      <td>0.1353</td>
+      <td>0.2325</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>Astra Otoparts Tbk.</td>
+      <td>AUTO</td>
+      <td>Automotive And Components</td>
+      <td>10720.00</td>
+      <td>0.41</td>
+      <td>0.4672</td>
+      <td>0.0670</td>
+      <td>0.0428</td>
+      <td>0.6421</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>Astra International Tbk.</td>
+      <td>ASII</td>
+      <td>Automotive And Components</td>
+      <td>154580.00</td>
+      <td>1.28</td>
+      <td>1.1052</td>
+      <td>0.0412</td>
+      <td>0.1244</td>
+      <td>0.4505</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>Jembo Cable Company Tbk.</td>
+      <td>JECC</td>
+      <td>Cable</td>
+      <td>762.60</td>
+      <td>1.35</td>
+      <td>1.1619</td>
+      <td>0.0410</td>
+      <td>0.0386</td>
+      <td>1.5385</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>Indo-Rama Synthetics Tbk.</td>
+      <td>INDR</td>
+      <td>Textile, Garment</td>
+      <td>5260.50</td>
+      <td>0.24</td>
+      <td>1.0903</td>
+      <td>0.1504</td>
+      <td>0.0460</td>
+      <td>0.7852</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>Puradelta Lestari Tbk.</td>
+      <td>DMAS</td>
+      <td>Property And Real Estate</td>
+      <td>6440.00</td>
+      <td>1.34</td>
+      <td>0.1894</td>
+      <td>0.2333</td>
+      <td>0.0331</td>
+      <td>10.5000</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>Nusa Raya Cipta Tbk.</td>
+      <td>NRCA</td>
+      <td>Building Construction</td>
+      <td>1250.00</td>
+      <td>0.75</td>
+      <td>0.9575</td>
+      <td>0.0802</td>
+      <td>0.0898</td>
+      <td>0.6667</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>Plaza Indonesia Realty Tbk.</td>
+      <td>PLIN</td>
+      <td>Property And Real Estate</td>
+      <td>11710.00</td>
+      <td>0.73</td>
+      <td>0.0824</td>
+      <td>0.0413</td>
+      <td>0.0473</td>
+      <td>0.6346</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>Wijaya Karya Bangunan Gedung T</td>
+      <td>WEGE</td>
+      <td>Building Construction</td>
+      <td>2200.00</td>
+      <td>0.89</td>
+      <td>1.6900</td>
+      <td>0.0578</td>
+      <td>0.1481</td>
+      <td>0.3471</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>Total Bangun Persada Tbk.</td>
+      <td>TOTL</td>
+      <td>Building Construction</td>
+      <td>1140.00</td>
+      <td>1.10</td>
+      <td>1.6937</td>
+      <td>0.1087</td>
+      <td>0.2139</td>
+      <td>0.5556</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>Jaya Real Property Tbk.</td>
+      <td>JRPT</td>
+      <td>Property And Real Estate</td>
+      <td>7170.00</td>
+      <td>0.80</td>
+      <td>0.5641</td>
+      <td>0.0577</td>
+      <td>0.1155</td>
+      <td>0.4000</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>Multifiling Mitra Indonesia Tb</td>
+      <td>MFMI</td>
+      <td>Others - Trade Services &amp; Inve</td>
+      <td>245.12</td>
+      <td>1.59</td>
+      <td>0.9744</td>
+      <td>0.5126</td>
+      <td>0.1333</td>
+      <td>6.1395</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>Pembangunan Graha Lestari Inda</td>
+      <td>PGLI</td>
+      <td>Tourism, Restaurant And Hotel</td>
+      <td>64.94</td>
+      <td>1.62</td>
+      <td>0.4399</td>
+      <td>0.0463</td>
+      <td>0.0274</td>
+      <td>2.5000</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>Colorpak Indonesia Tbk.</td>
+      <td>CLPI</td>
+      <td>Wholesale (Durable &amp; Non-Durab</td>
+      <td>481.99</td>
+      <td>0.46</td>
+      <td>0.4772</td>
+      <td>0.0755</td>
+      <td>0.0921</td>
+      <td>0.3799</td>
+    </tr>
+    <tr>
+      <th>50</th>
+      <td>Enseval Putera Megatrading Tbk</td>
+      <td>EPMT</td>
+      <td>Wholesale (Durable &amp; Non-Durab</td>
+      <td>6260.00</td>
+      <td>0.80</td>
+      <td>0.5354</td>
+      <td>0.0486</td>
+      <td>0.1124</td>
+      <td>0.3462</td>
+    </tr>
+    <tr>
+      <th>51</th>
+      <td>MNC Studios International Tbk.</td>
+      <td>MSIN</td>
+      <td>Advertising, Printing And Medi</td>
+      <td>1430.00</td>
+      <td>0.92</td>
+      <td>0.6068</td>
+      <td>0.0833</td>
+      <td>0.1669</td>
+      <td>0.4565</td>
+    </tr>
+    <tr>
+      <th>52</th>
+      <td>United Tractors Tbk.</td>
+      <td>UNTR</td>
+      <td>Wholesale (Durable &amp; Non-Durab</td>
+      <td>63100.00</td>
+      <td>1.09</td>
+      <td>0.7688</td>
+      <td>0.0656</td>
+      <td>0.1155</td>
+      <td>0.6205</td>
+    </tr>
+    <tr>
+      <th>53</th>
+      <td>Mitra Pinasthika Mustika Tbk.</td>
+      <td>MPMX</td>
+      <td>Wholesale (Durable &amp; Non-Durab</td>
+      <td>7020.00</td>
+      <td>0.31</td>
+      <td>0.4806</td>
+      <td>0.1844</td>
+      <td>0.0376</td>
+      <td>1.5254</td>
+    </tr>
+    <tr>
+      <th>54</th>
+      <td>Hexindo Adiperkasa Tbk.</td>
+      <td>HEXA</td>
+      <td>Wholesale (Durable &amp; Non-Durab</td>
+      <td>2496.62</td>
+      <td>1.05</td>
+      <td>0.4918</td>
+      <td>0.1390</td>
+      <td>0.2155</td>
+      <td>1.3737</td>
+    </tr>
+    <tr>
+      <th>55</th>
+      <td>Multipolar Technology Tbk.</td>
+      <td>MLPT</td>
+      <td>Computer And Services</td>
+      <td>928.04</td>
+      <td>1.20</td>
+      <td>1.2698</td>
+      <td>0.2235</td>
+      <td>0.1425</td>
+      <td>1.8732</td>
+    </tr>
+    <tr>
+      <th>56</th>
+      <td>Jasuindo Tiga Perkasa Tbk.</td>
+      <td>JTPE</td>
+      <td>Advertising, Printing And Medi</td>
+      <td>718.36</td>
+      <td>1.85</td>
+      <td>0.5530</td>
+      <td>0.0581</td>
+      <td>0.0570</td>
+      <td>1.8750</td>
+    </tr>
+    <tr>
+      <th>57</th>
+      <td>AKR Corporindo Tbk.</td>
+      <td>AKRA</td>
+      <td>Wholesale (Durable &amp; Non-Durab</td>
+      <td>8540.00</td>
+      <td>1.16</td>
+      <td>1.3155</td>
+      <td>0.0447</td>
+      <td>0.1067</td>
+      <td>0.4846</td>
+    </tr>
+    <tr>
+      <th>58</th>
+      <td>Surya Pertiwi Tbk.</td>
+      <td>SPTO</td>
+      <td>Wholesale (Durable &amp; Non-Durab</td>
+      <td>1240.00</td>
+      <td>1.08</td>
+      <td>1.1400</td>
+      <td>0.0806</td>
+      <td>0.1323</td>
+      <td>0.6557</td>
+    </tr>
+    <tr>
+      <th>59</th>
+      <td>Link Net Tbk.</td>
+      <td>LINK</td>
+      <td>Advertising, Printing And Medi</td>
+      <td>4550.00</td>
+      <td>1.26</td>
+      <td>0.5195</td>
+      <td>0.0890</td>
+      <td>0.1738</td>
+      <td>0.6478</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- Home -->
+    <center>
+        <form action = "http://127.0.0.1:5000">
+        <button style="height:45px;width:150px;font-size: 20px;text-align: center;line-height: 20px; background-color: #f50101;color: cornsilk;  type="button" class="btn btn-info"">Home</button>
+        </form><br><br>
+    </center> 
+
+<!--JavaScript at end of body for optimized loading-->
+     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+     <script type="text/javascript" src="js/materialize.min.js"></script>
+
+</body>
+</html>
