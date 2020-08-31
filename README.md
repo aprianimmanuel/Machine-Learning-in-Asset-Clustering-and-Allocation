@@ -1,5 +1,5 @@
 # Machine Learning in Portfolio Selection and Allocation
-Making the right decisions and grabbing opportunities in the fast moving world of finance can make a difference to your bottom line
+Making the right decisions and grabbing opportunities in the fast moving world of finance can make a difference to our bottom line
 This is where machine learning and artificial intelligence make a tangential difference
 
 ## Project's Goal
