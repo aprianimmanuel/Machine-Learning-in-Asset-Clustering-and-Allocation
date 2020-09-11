@@ -46,7 +46,7 @@ It is **extensive** yet easily **extensible** and can be useful for both the cas
 
 ## a Quick Example
 
-Here is an example on real life stock data, demonstrating how easy it is to find the long-only portfolio that maximises the Sharpe ratio (a measure of risk-adjusted returns
+Here is an example on real life stock data, demonstrating how easy it is to find the long-only portfolio that maximises the Sharpe ratio (a measure of risk-adjusted returns)
 
 ```python
 import pandas as pd
