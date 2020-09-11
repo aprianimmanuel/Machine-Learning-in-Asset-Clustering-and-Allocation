@@ -1,5 +1,5 @@
 # Machine Learning in Asset Selection and Allocation - Aprian Immanuel
-This project is a part of Graduation Requirement of *Job Connector Data Science and Machine Learning Program* at *Purwadhika Digital Technology School Batch 9 Jakarta*
+This project is a part of Graduation Requirement of __Job Connector Data Science and Machine Learning Program__ at __Purwadhika Digital Technology School Batch 9 Jakarta__
 
 #### -- Project Status: [Completed]
 
