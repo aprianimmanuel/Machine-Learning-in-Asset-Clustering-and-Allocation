@@ -1,5 +1,5 @@
 # Machine Learning in Asset Selection and Allocation - Aprian Immanuel
-This project is a part of Graduation Requirement of `Job Connector Data Science and Machine Learning Program` at `Purwadhika Digital Technology School Batch 9 Jakarta`
+This project is a part of Graduation Requirement of *Job Connector Data Science and Machine Learning Program* at *Purwadhika Digital Technology School Batch 9 Jakarta*
 
 #### -- Project Status: [Completed]
 
@@ -157,14 +157,14 @@ This output the following weights:
 'MSIN':	0.016383
 'SCCO':	0.107324
 'EPMT':	0.012400
-'MFIN':	0.016268
+'MFIN':	0.016268}
 
-Conditional Drawdown at Risk: 1.079410
-Expected Shortfall: -0.394162
-Variance at Risk: -0.252244
-Sharpe Ratio: 0.942124
-Probabilistic Sharpe Ratio: 0.222700
-Information Ratio: 0.942124
-Minimum Record Length: 1167.156377
-Bets Concentration: 0.769090
+'Conditional Drawdown at Risk:' 1.079410
+'Expected Shortfall:' -0.394162
+'Variance at Risk:' -0.252244
+'Sharpe Ratio:' 0.942124
+'Probabilistic Sharpe Ratio:' 0.222700
+'Information Ratio:' 0.942124
+'Minimum Record Length:' 1167.156377
+'Bets Concentration:' 0.769090
 ```
