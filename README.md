@@ -191,7 +191,7 @@ The main drawback of mean-variance optimisation is that the theoritical treatmen
 
 ### Risk models
 
-The covariance matrix encodes not just the volatility of an asset, but also how it correlated to ohter assets. This is important because in order to reap the benefits of diversification (and thus increase return per unit risk), the assets in the portfolio should be as the uncorrelated possible.
+The covariance matrix encodes not just the volatility of an asset, but also how it correlated to other assets. This is important because in order to reap the benefits of diversification (and thus increase return per unit risk), the assets in the portfolio should be as the uncorrelated possible.
 
 - Sample covariance matrix:
     - an unbiased estimate of the covariance matrix
