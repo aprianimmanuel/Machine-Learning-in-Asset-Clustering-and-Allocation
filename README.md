@@ -4,13 +4,13 @@ This project is a part of Graduation Requirement of __Job Connector Data Science
 #### -- Project Status: [Completed]
 
 ## Introduction
-My name Aprian Immanuel.
-- Active/Passive Investor and Trader (2017 – now)
-- Material Engineer (2016 – now)
-- Entrepreneur (2016 – now)
-- I am here because I want to share how to be a Data Driven Investor. 
+My name Aprian Immanuel. I am here because I want to share how to be a Data Driven Investor. 
 You can find me at @aprianimmanuel / immanuelaprian@gmail.com
-Linkedin: https://www.linkedin.com/in/aprianimmanuel
+- Linkedin: https://www.linkedin.com/in/aprianimmanuel
+    - Active/Passive Investor and Trader (2017 – now)
+    - Material Engineer (2016 – now)
+    - Entrepreneur (2016 – now)
+
 
 ## Project Intro/Objective
 The purpose of this project is knowing how to build our long term porfolio for Investor, Fund Manager, and other stakeholders with fully concern in maintaining and calculating the risk using Machine Learning ModelThe notebooks to this project are Python based. This project is avalaible on PyPI, meaning that you can just:
