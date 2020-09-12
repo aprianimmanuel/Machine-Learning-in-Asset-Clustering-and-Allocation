@@ -5,7 +5,9 @@ This project is a part of Graduation Requirement of __Job Connector Data Science
 
 ## Introduction
 My name Aprian Immanuel. I am here because I want to share how to be a Data Driven Investor. 
-You can find me at @aprianimmanuel / immanuelaprian@gmail.com
+You can find me at 
+- Twitter/Instagram: @aprianimmanuel
+- Gmail: immanuelaprian@gmail.com
 - Linkedin: https://www.linkedin.com/in/aprianimmanuel
     - Active/Passive Investor and Trader (2017 – now)
     - Material Engineer (2016 – now)
