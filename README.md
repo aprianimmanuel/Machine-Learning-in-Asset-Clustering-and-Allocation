@@ -164,13 +164,13 @@ and will have this Evaluation Matrices as following;
 
 No. | Metrices | Score
 ----|----------|-------
-1. | Conditional Drawdown at Risk | 1.079410
----|------------------------------|---------
-2. | Expected Shortfall | -0.394162
----|--------------------|----------
-3. | Variance at Risk | -0.252244
----|------------------|----------
-4. | Sharpe Ratio | 0.942124
+1. | Conditional Drawdown at Risk | 1.079410 |
+---|------------------------------|--------- |
+2. | Expected Shortfall | -0.394162 |
+---|--------------------|---------- |
+3. | Variance at Risk | -0.252244 |
+---|------------------|---------- |
+4. | Sharpe Ratio | 0.942124 |
 ---|--------------|---------
 5. | Probabilistic Sharpe Ratio | 0.222700
 6. | Information Ratio | 0.942124
