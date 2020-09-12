@@ -4,7 +4,7 @@ This project is a part of Graduation Requirement of __Job Connector Data Science
 #### -- Project Status: [Completed]
 
 ## Introduction
-My name Aprian Immanuel. I am here because I want to share how to be a Data Driven Investor. 
+My name is Aprian Immanuel. I am here because I want to share how to be a Data Driven Investor. 
 You can find me at 
 - Twitter/Instagram: @aprianimmanuel
 - Gmail: immanuelaprian@gmail.com
@@ -201,10 +201,9 @@ Although much development has been made in the subject, more than half a century
 The main drawback of mean-variance optimisation is that the theoritical treatment requires knowledge of the expected returns and the future risk-characteristics (covariance) of the assets. Obviously, if we knew the expected returns of a stock life would be much easier, but the whole game is that stock returns are notoriously hard to covariance based on historical data - though we do lose the theoritical guarantees provided by Markowitz, the closer our estimates are to the real values; the better our portfolio will be.
 
 ### Expected Returns
-
-- Mean Historical Returns:
-    - the simplest and most common approach, which states that the expected return of each asset is equal to the mean of its historical returns
-    - easily interpretable and very intituive
+Mean Historical Returns:
+- the simplest and most common approach, which states that the expected return of each asset is equal to the mean of its historical returns
+- easily interpretable and very intituive
 
 ### Risk models
 
