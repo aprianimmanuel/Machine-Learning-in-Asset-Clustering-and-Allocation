@@ -1,10 +1,19 @@
-# Machine Learning in Asset Selection and Allocation - Aprian Immanuel
+# Machine Learning in Asset Selection and Allocation
 This project is a part of Graduation Requirement of __Job Connector Data Science and Machine Learning Program__ at __Purwadhika Digital Technology School Batch 9 Jakarta__
 
 #### -- Project Status: [Completed]
 
+## Introduction
+My name Aprian Immanuel.
+- Active/Passive Investor and Trader (2017 – now)
+- Material Engineer (2016 – now)
+- Entrepreneur (2016 – now)
+I am here because I want to share how to be a Data Driven Investor. 
+You can find me at @aprianimmanuel / immanuelaprian@gmail.com
+Linkedin: https://www.linkedin.com/in/aprianimmanuel
+
 ## Project Intro/Objective
-The purpose of this project is investigating various machine learning and portfolio optimisation model and techniques. The notebooks to this project are Python based. This project is avalaible on PyPI, meaning that you can just:
+The purpose of this project is knowing how to build our long term porfolio for Investor, Fund Manager, and other stakeholders with fully concern in maintaining and calculating the risk using Machine Learning ModelThe notebooks to this project are Python based. This project is avalaible on PyPI, meaning that you can just:
 
 ```bash
 pip install mlfinlab
@@ -33,11 +42,19 @@ pip install mlfinlab
 * etc. 
 
 ## Project Description
+Making the right decisions and grabbing opportunities in the fast moving world of finance can make a difference to your bottom line
+This is where machine learning and artificial intelligence make a tangential difference
+Market and Markets study shows that artificial intelligence in financial segment will grow to over $ 7.3 billion in 2022
+
+Non-performing assets can cause immense losses. However, if we have ML for assesment of the assets, the system delves deeper and digs to find out all relevant information
+This one area where price is influenced not just by demand-supply but also by political factors, climate, company results and unforeseen calamities.
+ML keeps track of all and integrates them into a predictive capability to keep us ahead of the game
+
 mlfinlab is a library that implements portfolio optimisation method, including classical mean-variance optimisation techniques and Black Literman allocation, as well as more recent developments in the field like shrinkage and Hierarchical Risk Parity, along with some novel experimental features like exponentially-weighted covariance matrices.
 
 It is **extensive** yet easily **extensible** and can be useful for both the casual investor and the serious practitioneer. Whether we are a fundamentals-oriented investor who has identified a handful of undervalued picks or an algorithmic trader who has a basket of interesting signals. mlfinlab can help us combine our alpha streams in a risk-efficient way.
 
-## Needs of this project
+## Who use of this project
 
 - Active/Passive Investor
 - Investment Manager / Fund Manager
@@ -159,10 +176,9 @@ This output the following weights:
 'EPMT':	0.012400
 'MFIN':	0.016268}
 ```
-and will have this Evaluation Matrices as following;
+and will have this Evaluation Metrix as following;
 
-
-No. | Metrices | Score
+ No. | Metrices | Score
 ----|----------|-------
 1 | Conditional Drawdown at Risk | 1.079410 
 2 | Expected Shortfall | -0.394162 
@@ -172,7 +188,6 @@ No. | Metrices | Score
 6 | Information Ratio | 0.942124
 7 | Minimum Record Length | 1167.156377
 8 | Bets Concentration | 0.769090
-
 
 *Disclaimer: nothing about this project constitues investment advice, and the author bears no responsibility for your subsequent investment decisions.*
 
@@ -193,11 +208,20 @@ The main drawback of mean-variance optimisation is that the theoritical treatmen
 
 The covariance matrix encodes not just the volatility of an asset, but also how it correlated to other assets. This is important because in order to reap the benefits of diversification (and thus increase return per unit risk), the assets in the portfolio should be as the uncorrelated possible.
 
-- Sample covariance matrix:
-    - an unbiased estimate of the covariance matrix
-    -  relatively easy to compute
-    - the de facto standard for many years
-    - however, it has a high estimation error, which is particularly dangerous in mean variance optimisation because the optimiser is likely to give excess weight to the erroneous estimates.
-- Semicovariance: a measure of risk that focuses on downside variation.
-- Exponential covariance: an improvement over sample covariance that gives more weight to recent data.
-- Covariance shrinkage: techniques that involve combining the sample covariance matrix with a structured estimator, to reduce the effect of erroneous weights.
+- Conditional Drawdown at Risk Metrics – The average of all drawdowns or cumulative losses in excess of a certain threshold
+- Expected Shortfall Risk Metrics – The expected return on the portolio in the worst q% of cases
+Variance at Risk Metrics – The estimator how much a set of investments might lose (with a given probability), given a normal market conditions, in a set time period.
+- Sharpe Ratio – The average return earned in excess of the risk free rate per unit of volatiity or total risk
+- Probabilistic Sharpe Ratio -  The probability that the estimated Sharpe Ratio exceeds a benchmark Sharpe Ratio
+- Information Ratio –  The portfolio return beyond the returns of the a benchmark, usually an index, compared to the volatility of those returns
+- Minimum Record Length – The time period how long  a track record should be in order to have statistical confidence that its Sharpe rato is above a given threshold
+- Bets Concentration - The uniformity of returns from bets. The closer the concentration is to 0, the more uniform the distribution of returns.
+
+## Conclusion
+- Every portfolio selection and allocation method has advantage and disadvantage sides. Investor needs to make assesment for their own risk profile.
+- Portfolio selection with K-Means Clustering has a better way solution in avoiding high risk yet with high return than without K-Means Clustering
+- Portfolio in Cluster 1 has better sharpe ratio but still has high variance at risk and conditional drawdown at risk compared to Cluster 2 and Cluster 3.
+- Cluster 3 has less risk than Cluster 1 and Cluster 2 but lower gain  than Cluster 1 and Cluster 2. 
+- Cluster 2 has more moderate risk metrics than Cluster 1 but higher gain than Cluster 3
+- Every portfolio selection and allocation method depends on stock price  correlation, covariance matrix and financial stats for each company. That’s why investor needs to try different approach in finding a way to diversify and calculate risk – return based portfolio
+
