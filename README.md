@@ -8,7 +8,7 @@ My name Aprian Immanuel.
 - Active/Passive Investor and Trader (2017 – now)
 - Material Engineer (2016 – now)
 - Entrepreneur (2016 – now)
-I am here because I want to share how to be a Data Driven Investor. 
+- I am here because I want to share how to be a Data Driven Investor. 
 You can find me at @aprianimmanuel / immanuelaprian@gmail.com
 Linkedin: https://www.linkedin.com/in/aprianimmanuel
 
