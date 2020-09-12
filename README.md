@@ -158,13 +158,45 @@ This output the following weights:
 'SCCO':	0.107324
 'EPMT':	0.012400
 'MFIN':	0.016268}
-
-'Conditional Drawdown at Risk:' 1.079410
-'Expected Shortfall:' -0.394162
-'Variance at Risk:' -0.252244
-'Sharpe Ratio:' 0.942124
-'Probabilistic Sharpe Ratio:' 0.222700
-'Information Ratio:' 0.942124
-'Minimum Record Length:' 1167.156377
-'Bets Concentration:' 0.769090
 ```
+and will have this Evaluation Matrices as following;
+
+```txt
+No. | Metrices | Score
+1. | Conditional Drawdown at Risk | 1.079410
+2. | Expected Shortfall | -0.394162
+3. | Variance at Risk | -0.252244
+4. | Sharpe Ratio | 0.942124
+5. | Probabilistic Sharpe Ratio | 0.222700
+6. | Information Ratio | 0.942124
+7. | Minimum Record Length | 1167.156377
+8. | Bets Concentration | 0.769090
+```
+
+*Disclaimer: nothing about this project constitues investment advice, and the author bears no responsibility for your subsequent investment decisions.*
+
+### An overview of classical portfolio methods
+
+Harry Markowitz's 1952 paper is the undeniable classic, which turned portfolio optimisation from an art into a science. The key insight is that by combining assets with different expected returns and volatilities, one can decide on a mathematically optimal allocation which minimises the risk for a target return - the set of all such optimal portfolios is referred to as the **efficient portfolio**
+
+Although much development has been made in the subject, more than half a century later, Markowitz's care ideas are still fundamentally important and see daily use in many portfolio management firms.
+The main drawback of mean-variance optimisation is that the theoritical treatment requires knowledge of the expected returns and the future risk-characteristics (covariance) of the assets. Obviously, if we knew the expected returns of a stock life would be much easier, but the whole game is that stock returns are notoriously hard to covariance based on historical data - though we do lose the theoritical guarantees provided by Markowitz, the closer our estimates are to the real values; the better our portfolio will be.
+
+### Expected Returns
+
+- Mean Historical Returns:
+    - the simplest and most common approach, which states that the expected return of each asset is equal to the mean of its historical returns
+    - easily interpretable and very intituive
+
+### Risk models
+
+The covariance matrix encodes not just the volatility of an asset, but also how it correlated to ohter assets. This is important because in order to reap the benefits of diversification (and thus increase return per unit risk), the assets in the portfolio should be as the uncorrelated possible.
+
+- Sample covariance matrix:
+    - an unbiased estimate of the covariance matrix
+    -  relatively easy to compute
+    - the de facto standard for many years
+    - however, it has a high estimation error, which is particularly dangerous in mean variance optimisation because the optimiser is likely to give excess weight to the erroneous estimates.
+- Semicovariance: a measure of risk that focuses on downside variation.
+- Exponential covariance: an improvement over sample covariance that gives more weight to recent data.
+- Covariance shrinkage: techniques that involve combining the sample covariance matrix with a structured estimator, to reduce the effect of erroneous weights.
