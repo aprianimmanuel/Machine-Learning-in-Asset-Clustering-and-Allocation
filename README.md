@@ -161,7 +161,7 @@ This output the following weights:
 ```
 and will have this Evaluation Matrices as following;
 
-```txt
+
 No. | Metrices | Score
 1. | Conditional Drawdown at Risk | 1.079410
 2. | Expected Shortfall | -0.394162
@@ -171,7 +171,7 @@ No. | Metrices | Score
 6. | Information Ratio | 0.942124
 7. | Minimum Record Length | 1167.156377
 8. | Bets Concentration | 0.769090
-```
+
 
 *Disclaimer: nothing about this project constitues investment advice, and the author bears no responsibility for your subsequent investment decisions.*
 
