@@ -163,6 +163,7 @@ and will have this Evaluation Matrices as following;
 
 
 No. | Metrices | Score
+----|----------|-------
 1. | Conditional Drawdown at Risk | 1.079410
 2. | Expected Shortfall | -0.394162
 3. | Variance at Risk | -0.252244
